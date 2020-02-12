@@ -6,7 +6,7 @@ public class DemoHW2 {
 		HW2.words();
 		HW2.getPiramide();
 		HW2.numbersMus();
-		
+		HW2.matrixRotation();
 	}
 
 }

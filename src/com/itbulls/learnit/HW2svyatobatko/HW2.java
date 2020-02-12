@@ -10,7 +10,7 @@ public class HW2 {
 
 	public static void location() {
 		int a;
-		System.out.println("¬ведите число");
+		System.out.println("Insert the number");
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		String text = String.join("\n", String.valueOf(a).split(""));
@@ -28,7 +28,7 @@ public class HW2 {
 	}
 
 	public static void getPiramide() {
-		System.out.println("¬ведите высоту пирамиды");
+		System.out.println("Enter the height of the pyramid");
 		int n = 7;
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
@@ -47,7 +47,7 @@ public class HW2 {
 	}
 
 	public static void numbersMus() {
-		System.out.println("—осздаем массив");
+		System.out.println("Create an array");
 		Random rand = new Random();
 		int mas[] = new int[10];
 		int mas2[] = new int[10];
@@ -68,12 +68,13 @@ public class HW2 {
 	
 
 	
-			
-			
+	public static void matrixRotation()
+	{
+		System.out.println("Eror 404");
 	}
 	
 	
-	
+}
 	
 	
 	
