@@ -1,0 +1,52 @@
+package com.itbulls.learnit.HomeWork6.svyatobatko;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import java.util.Collections;
+import java.util.Comparator;
+
+import com.itbulls.learnit.HW5.svyatobatko.Book;
+
+public class Compare {
+	public static void sortByCost() {
+		Collections.sort(Demo.list, new Comparator<Production>() {
+			public int compare(Production o1, Production o2) {
+				if (o1.getCost() >= o2.getCost()) {
+					return 1;
+				} else {
+					return -1;
+				}
+			}
+		});
+	}
+
+	public static void sortByWeight() {
+		Collections.sort(Demo.list, new Comparator<Production>() {
+			public int compare(Production o1, Production o2) {
+				if (o1.getWeight() >= o2.getWeight()) {
+					return 1;
+				} else {
+					return -1;
+				}
+			}
+		});
+	}
+
+	public static void sortByConsSuga() {
+		Collections.sort(Demo.list, new Comparator<Production>() {
+			public int compare(Production o1, Production o2) {
+				if (o1.getconsSuga() >= o2.getconsSuga()) {
+					return 1;
+				} else {
+					return -1;
+				}
+			}
+		});
+	}
+
+	
+	
+	
+}
