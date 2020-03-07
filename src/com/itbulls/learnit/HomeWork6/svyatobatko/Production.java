@@ -8,8 +8,11 @@ public class Production {
 	private double consSuga; //содиржание сахара
 	
 	public Production(String name, String type, double cost, int weight, double consSuga) {
-		
-	
+		this.name = name;
+		this.type = type;
+		this.cost = cost;
+		this.weight = weight;
+		this.consSuga = consSuga;
 }
 
 	public String getName() {
@@ -97,7 +100,7 @@ public class Production {
 
 	@Override
 	public String toString() {
-		return "Production [name=" + name + ", type=" + type + ", cost=" + cost + ", weight=" + weight + ", consSuga="
+		return  "Candy [name=" + name + ", type=" + type + ", cost=" + cost + ", weight=" + weight + ", consSuga="
 				+ consSuga + "]" + "\n";
 	}
 	
